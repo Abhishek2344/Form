@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="912_cm4_icon.ico" type="image/x-icon">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Travel form for trip</h1>
+            <form action="form.php">
+                <input type="text" name="lms" placeholder="Enter Your Name"><br>
+                <label for="Route1">
+                    <input type="radio" value="Route 1" name="ol1" id="Route1">Route 1
+                </label>
+                <label for="Route2">
+                    <input type="radio" value="Route 2" name="ol1" id="Route2">Route 2
+                </label>
+                <label for="Route3">
+                    <input type="radio" value="Route 3" name="ol1" id="Route3">Route 3
+                </label>
+                <br>
+                <h3>Want to get food card:</h3>
+                <input type="checkbox" value="Yes" name="lpg" id="pic1">
+                <label for="pic1d">Yes</label>
+                <input type="checkbox" value="No" name="lpg" id="pic2">
+                <label for="pic2d">No</label>
+                <br>
+                <br>
+                Date of Registration: <input type="date">
+                <br>
+                <textarea name="Explain Reason" id="Explain" cols="30" rows="10"
+                    placeholder="Explain why you want to go to trip"></textarea>
+                <br>
+                <select name="book" id="book">
+                    <option value="No Book">Which Book You Want</option>
+                    <option value="Science">Science</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Computer">Computer</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+            </form>
+        </div>
+        <div>
+            <a href="https://google.com" target="_blank"><button>Google</button> </a>
+        </div>
+    </main>
+</body>
+
+</html>
